@@ -1,5 +1,7 @@
 # OpenVPN with configuration in SSM
 
+[![](https://img.shields.io/docker/pulls/radhus/openvpn-ssm.svg)](https://hub.docker.com/r/radhus/openvpn-ssm/)
+
 This Docker image runs OpenVPN and fetches your server configuration from [AWS SSM Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html), including a helper to fetch client configurations from SSM as well.
 
 ## Usage
